@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog – Daniel Fritsch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">DF</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="blog.html" class="active">Blog</a></li>
+  </ul>
+</nav>
+
+<main class="content">
+  <h2>Blog</h2>
+
+  <div class="blog-entry" onclick="toggleBlog(this)">
+    <h3>Why Lexical Alignment Matters in Learning</h3>
+    <div class="blog-content">
+      <p>
+        Long-form writing goes here. This section expands when clicked.
+        You can add equations, figures, or even code snippets.
+      </p>
+    </div>
+  </div>
+
+  <div class="blog-entry" onclick="toggleBlog(this)">
+    <h3>Thoughts on Cross-Species Genomic Models</h3>
+    <div class="blog-content">
+      <p>
+        Discussion of AlphaGenome, generalization limits, and why biology
+        is a uniquely hard ML domain.
+      </p>
+    </div>
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
